@@ -30,7 +30,7 @@ palpites.textContent += palpiteUsuario + " ";
         if (palpiteUsuario < numeroAleatorio) {
         baixoOuAlto.textContent = "O último palpite foi muito baixo";
         } else if (palpiteUsuario > numeroAleatorio) {
-          baixoOuAlto.textContent = "O último palpite foi muito alto"
+          baixoOuAlto.textContent = "O último palpite foi muito alto";
         }
     }
 }
