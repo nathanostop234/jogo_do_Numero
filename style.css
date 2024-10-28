@@ -76,4 +76,10 @@ html {
   .ultimoResultado.correto {
     background-color: #28a745;
   }
-  
+
+  .botaoReiniciar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+  }
