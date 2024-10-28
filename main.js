@@ -1,4 +1,3 @@
-
 let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 const palpites = document.querySelector('.palpites');
 const ultimoResultado = document.querySelector('.ultimoResultado');
