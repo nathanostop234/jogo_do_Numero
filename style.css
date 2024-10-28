@@ -55,8 +55,17 @@ html {
     background-color: #218838;
   }
 
+  .paragrafosResultado p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
+  }
+
   .ultimoResultado {
     color: white;
     padding: 3px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    text-align: center;
   }
   
