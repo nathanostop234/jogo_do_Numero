@@ -68,4 +68,12 @@ html {
     font-size: 1.3em;
     text-align: center;
   }
+
+  .ultimoResultado.errado {
+    background-color: #dc3545;
+  }
+
+  .ultimoResultado.correto {
+    background-color: #28a745;
+  }
   
