@@ -17,7 +17,7 @@ palpites.textContent = "Palpites anteriores: ";
 palpites.textContent += palpiteUsuario + " ";
 
 if (palpiteUsuario === numeroAleatorio) {
-ultimoResultado.textContent = "Parabéns! Você acertou!";
+ultimoResultado.textContent = "Parabéns! Você acertou! Seu orangotango ";
 ultimoResultado.style.backgroundColor = "green";
 baixoOuAlto.textContent = "";
 finalizarJogo();
@@ -26,12 +26,12 @@ finalizarJogo();
   baixoOuAlto.textContent = "";
   finalizarJogo();
 } else {
-ultimoResultado.textContent = "Errado";
+ultimoResultado.textContent = "ERRADO!";
 ultimoResultado.style.backgroundColor = "red";
 if (palpiteUsuario < numeroAleatorio) {
-baixoOuAlto.textContent = "O último palpite foi muito baixo";
+baixoOuAlto.textContent = "SEU BURRO ESTÁ MUITO BAIXO";
 } else if (palpiteUsuario > numeroAleatorio) {
-baixoOuAlto.textContent = "O último palpite foi muito alto";
+baixoOuAlto.textContent = "SEU BURRO ESTÁ MUITO ALTO";
 }
 }
 
