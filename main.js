@@ -48,7 +48,7 @@ function verificarPalpite() {
     document.body.appendChild(botaoReiniciar);
     botaoReiniciar.textContent = "Reiniciar Jogo";
     botaoReiniciar.classList.add('botaoReinicar');
-    document.body.appendChild(botaoReiniciar)
+    document.body.appendChild(botaoReiniciar);
     botaoReiniciar.addEventListener('click', reiniciarJogo);
    }
 
